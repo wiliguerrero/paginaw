@@ -1,0 +1,395 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#div1997{
+
+	height: 10px;
+}
+
+body{
+	/*background: #444;
+	color: #fff;*/
+
+	/* Location of the image */
+  background-image: url(fondo3.jpg);*/
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #fff;
+
+
+}
+
+img{
+	width: 1000px;
+	height: 500px;
+
+}
+
+#contenedorPrincipal {
+	width: 100%;
+	max-width: 1500px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+
+
+}
+
+header {
+	margin: 20px 0;
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+}
+header h1{
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+	color:  rgba(239, 179, 42, 0.5);
+	padding: 20px 0;
+	text-align: center;
+	
+	
+}
+nav{
+	
+	height: 60px;
+	/*background-color: rgba(255, 255, 255, 0.5)*/
+	}
+	nav h2{
+		color: #fff;
+	padding: 20px 0;
+	text-align: center;
+	}
+
+#contenido {
+	margin: 20px 0;
+	width: 70%;
+	padding: 20px;
+	float: left;
+	align-content: center;
+	box-sizing: border-box;
+	/*background-color: rgba(255, 255, 255, 0.5);
+	
+float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;*/
+
+}
+
+#contenido2{
+ margin: 20px 0;
+	width: 100%;
+	padding: 20px;
+	float: left;
+	align-content: center;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+#contenido3{
+ margin: 20px 0;
+	width: 100%;
+	padding: 20px;
+	float: left;
+	align-content: center;
+	box-sizing: border-box;
+	
+
+}
+
+#contenido h2{
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+aside {
+
+	margin: 20px 0 ;
+	width: 30%;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+	
+	/*background-color: rgba(140, 229, 252, 0.5);
+	height: 500px;
+	background: green;
+	margin-top: 10px;
+	float: right;*/
+}
+
+aside h2 {
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+footer {	
+	clear: both;
+	background-color: rgba(255, 255, 255);
+
+}
+footer p{
+	color: #000;
+	padding: 20px 0;
+	text-align: center;
+}
+
+@media screen and (max-width: 800px){
+	#contenido{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 870px){
+	
+
+	img{
+	width: 700px;
+	height: 300px;
+}
+
+
+
+}
+
+@media screen and (max-width: 400px){
+	#contenido{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+
+	img{
+	width: 500px;
+	height: 250px;
+
+}
+
+
+	
+
+}
+@media screen and (max-width: 600px){
+	#facebook{
+	
+	margin-left: 20px;
+}
+
+#instagram{
+	
+	margin-left: 20px;
+}
+
+#youtube{
+	
+	margin-left: 20px;
+}
+
+#uh1{
+	font-size: 300%
+}
+
+}
+
+
+
+
+
+ul.menu {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+ul.menu {
+
+  clear: both;
+  float: left;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu li {
+   float: left;
+   margin-right: 10px;
+   margin-left: 30px
+   margin :10px;
+   width: auto;
+
+
+}
+
+#cen{
+	width: 1000px;
+	height: 500px;
+}
+
+ul.menu li a {
+	margin-top: 15px;
+	margin-left: 100px;
+	background-color:  red;
+  padding: .6em;
+  display: block;
+  text-decoration: none;
+  color: #efb32a;
+  background:#fff;
+  border-top: 1px solid #7C7C7C;
+  border-right: 1px solid #7C7C7C;
+  border-left: 3px solid #7C7C7C;
+  border-bottom: 1px solid #9C9C9C;
+   border-radius: 7px;
+/*
+  text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+   
+    border: 2px solid #0016b0;*/
+}
+
+ul.menu li a:hover{
+    color: #7C7C7C;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%; /* Para que el contenedor tenga relación de aspecto 16/9 */
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+#rs{
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 90px;
+	font-size: 30px;
+	text-align: left;
+  padding: .4em;
+  display: block;
+  text-decoration: none;
+  color: #efb32a;
+  
+
+}

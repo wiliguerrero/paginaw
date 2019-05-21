@@ -1,0 +1,229 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+<!-- Head -->
+
+<head>
+    <title></title>
+    <!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Prime login Form a Responsive Web Template, Bootstrap Web Templates, Flat Web Templates, Android Compatible Web Template, Smartphone Compatible Web Template, Free Webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design">
+
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+<!-- //Head -->
+<!-- Body -->
+<!--<script type="text/javascript">
+    $(document).ready(function(){
+    
+          $('#formularioRegistro').hide(); //oculto mediante id
+    });
+    //function cambiarARegistrar(){
+      
+      //     document.getElementById('formularioRegistro').style.display="hide";
+        //   document.getElementById('formularioInicioSesion').style.display="hide";
+         
+
+    //}
+
+        function cambiarAInicio(){
+             $('Registrarse').on( "click", function() {
+            $('#formularioInicioSesion').hide(); //muestro mediante id  
+            $('#formularioRegistro').hide(); //oculto mediante id       
+         });
+        }
+
+    
+</script>-->
+
+<body>
+
+  <div id="con">
+     
+
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation"> <!-- el inverse es para que cambien los colores y el static top es para que el menu se mantenga en la parte de arriba de la pagina -->
+
+   <div >
+    <div >
+         <img src="images/Encabezado.png" id="imagenLogo" >
+    <!-- Esto es para hacer el boton que se muestra cuando el dispositivo es mediano-->
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion" aria-expended="false" aria-controls="navbar" id="btncollapseeed">
+      <span class="sr-only">Ocultar</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     
+
+    <!-- Aqui se iniciara el menu-->
+
+    <div class="collapse navbar-collapse" id="navegacion"> <!-- El id que se agrega aqui debe de llevar el mismo nombre que se ingreso en el data-target que va en el boton que se muestra en dispositivos medianos-->
+
+     <ul class="nav navbar-nav">
+      
+    
+
+      <li class="dropdown">
+
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expended="false" id="inicioStatico">
+       Iniciar Sesion 
+       <span class="caret"></span>
+       </a>
+
+       <ul class="dropdown-menu" role="menu" id="menud">
+        <li><a href="javascript:cambiarAInicio()" id="irIniciar">Iniciar Sesion</a></li>
+       <li role="separator" class="divider"></li>
+        <li><a href="javascript:cambiarARegistrar()" id="Registrarse">Registrar</a></li>
+        <!-- <li><a href="#">Outsourcing 2</a></li>
+        <li><a href="#">Outsourcing 3</a></li>-->
+       </ul>
+
+      </li>
+
+      <!--<li><a href="#"></a></li>-->
+     </ul> 
+
+    <!-- <form action="" class="navbar-form navbar-right" role="search">
+      <div class="form-group">
+       <input type="text" class="form-control" placeholder="Buscar">
+      </div>
+      <button type="submit" class="btn btn-primary">
+       <span class="glyphicon glyphicon-search"></span>
+      </button>
+
+     </form>-->
+
+    </div>
+   </div>
+  </nav>
+
+  </div>
+    
+    <div class="content-w3ls" id="formularioInicioSesion">
+        <div class="content-bottom">
+            <form action="#" method="post">
+                <div class="field-group">
+                    <span class="fa fa-user" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="text1" id="text1" type="text" value="" placeholder="C U M" required>
+                    </div>
+                </div>
+                <div class="field-group">
+                    <span class="fa fa-lock" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="password" id="myInput" type="Password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="field-group">
+                    <div class="check">
+                        <label class="checkbox w3l">
+                            <input type="checkbox" onclick="myFunction()">
+                            <i> </i>show password</label>
+                    </div>
+                    <!-- script for show password -->
+                    <script>
+                        function myFunction() {
+                            var x = document.getElementById("myInput");
+                            if (x.type === "password") {
+                                x.type = "text";
+                            } else {
+                                x.type = "password";
+                            }
+                        }
+                    </script>
+                    <!-- //script for show password -->
+                </div>
+                <div class="wthree-field">
+                    <a href="pantallaMatriculacion.html">
+                    <input id="saveForm" name="saveForm" type="submit" value="Iniciar Sesion" />
+                    </a>
+                </div>
+                <ul class="list-login">
+                    <li class="switch-agileits">
+                        <label class="switch">
+                            <!--<input type="checkbox">
+                            <span class="slider round"></span>-->
+                            
+                        </label>
+                    </li>                    
+                    <li>
+                        <a href="#" class="text-left" id="RecuperarContraseña">Recuperar Contraseña</a>
+                    </li>
+                    
+                    <li class="clearfix"></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+
+
+   <div class="content-w3ls" id="formularioRegistro">
+        <div class="content-bottom">
+            <form action="#" method="post">
+                <div class="field-group">
+                    <span class="fa fa-user" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="text1" id="text1" type="text" value="" placeholder="C U M" required>
+                    </div>
+                </div>
+                <div class="field-group">
+                    <span class="fa fa-lock" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="password" id="myInput" type="Password" placeholder="Password">
+                    </div>
+                </div>
+                 <div class="field-group">
+                    <span class="fa fa-lock" aria-hidden="true"></span>
+                    <div class="wthree-field">
+                        <input name="password" id="myInput" type="Password" placeholder="RepetirPass">
+                    </div>
+                </div>
+                
+
+                <div class="wthree-field">
+                    <input id="RegistrarForm" name="saveForm" type="submit" value="Registrar" />
+                </div>
+               <!-- <div class="wthree-field">
+                     <a  href="javascript:cambiarAInicio()"  id="irIniciar" >INICIAR SESION</a>
+                </div>-->
+                <ul class="list-login">
+                    <li class="switch-agileits">
+                        <label class="switch">
+                            <!--<input type="checkbox">
+                            <span class="slider round"></span>-->
+                            
+                        </label>
+                    </li>
+                    <li>
+                       
+                    </li>                   
+                    <li class="clearfix"></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+    <!--<div class="copyright text-center">
+        <p>© 2018 Prime login Form. All rights reserved | Design by
+            <a href="http://w3layouts.com">W3layouts</a>
+        </p>
+    </div>-->
+</body>
+<!-- //Body -->
+</html>
